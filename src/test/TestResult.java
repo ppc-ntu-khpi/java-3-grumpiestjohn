@@ -5,8 +5,8 @@ import domain.Exercise;
 public class TestResult {
 
     public static void main(String[] args) {
-
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        int X = 250;
+        int K = 3;
+        System.out.println("Ways to reach space №" + X + " with a maximum step of " + K + ": " + Exercise.Calculate(X, K));
     }
 }
